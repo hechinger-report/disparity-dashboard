@@ -1,0 +1,376 @@
+@import "./styles/fonts.css";
+@import "./styles/leaflet.css";
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+.header-container {
+  width:100%;
+}
+
+.app-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.header {
+  display:flex;
+  background-color: #ffcf31;
+  height: 40px;
+  padding: 0 5px 0;
+  color: white;
+}
+
+.header-title {
+  align-items: center;
+  color:black;
+  display:flex;
+  font-family:"National";
+  font-weight:200;
+  font-size: 1.2em;
+  line-height: 1.3em;
+  text-align:left;
+  text-transform:uppercase;
+}
+.header-description {
+  color:#D3D3D3;
+  padding: 0 5px 0;
+  margin:0 auto;
+  font-size: .7em;
+  font-weight:300;
+}
+.header-description-container {
+  background-color:black;
+  padding: 5px 0;
+
+}
+.app-intro {
+  font-size: large;
+}
+
+.school-container {
+  width:100%;
+  min-width:700px;
+}
+
+.school-content {
+  padding: 0 5px 0 40px;
+  height:90px;
+}
+
+.school-profile {
+  display:inline-block;
+  font-family:'National';
+  width:100%;
+}
+.school-name {
+  margin-bottom:0;
+}
+.school-description {
+  margin:2px 0 0 1px;
+  font-weight:200;
+}
+
+/* Search Bar Navigation */
+.search-bar-wrapper {
+  display:flex;
+  text-align:center;
+}
+.search-bar-container {
+  display:block;
+  padding:15px 15px 0px 15px;
+  font-family:'Tiempos';
+  font-size:.7em;
+  font-weight: 300;
+  text-transform:uppercase;
+  color:black;
+  width:100%;
+}
+.search-bar-content {
+  margin:10px 0 0 0;
+  padding-left:1px;
+  line-height: 10px;
+}
+.autosuggest-container {
+  padding:5px 10px 0 0;
+}
+.react-autosuggest__input {
+  width:57% !important;
+}
+.react-autosuggest__suggestions-container {
+  text-align:center;
+  width:60% !important;
+}
+.react-autosuggest__suggestions-container--open {
+  text-align:center;
+  width:60% !important;
+}
+
+/* School Map Display */ 
+.leaflet-container {
+  position:relative;
+  z-index:1;
+  top:-240px;
+  right:0px;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+/*.stack-container {
+  padding-top:55px;
+  width:300px;
+  height:300px;
+}
+.ghost-name {
+  position:relative;
+  top:-450px;
+  text-align: right;
+  z-index:3;
+  text-transform: uppercase;
+  color:white;
+  opacity:.4;
+}
+.stack-circle {
+  position:relative;
+  z-index:2;
+  height:200px;
+}
+
+.mask {
+  width:300px;
+  height:300px;
+}
+.overlay{
+    position:relative;
+    top:-40px;
+    right:0px;
+    width:300px; height:300px;
+    margin:0 auto;
+    overflow:hidden;
+}
+.overlay:after{
+    content:'';
+    position:absolute;
+    right:5px; 
+    top:-0px;
+    border-radius:100%;
+    width:290px; height:290px;
+    box-shadow: 0px 0px 0px 2000px #FFF;
+
+}*/
+
+/* Scores */
+.score-container-headline {
+  font-family:'National';
+  font-size:20px;
+  margin:10px 0 5px 0;
+}
+.score-wrapper {
+  text-align:center;
+  width:90%;
+}
+.score-container {
+  display:flex;
+  justify-content:space-evenly;
+}
+.score-container-inner {
+  flex-grow:2;
+  justify-content:space-evenly;
+  text-align:center;
+  max-width:100px;
+}
+.score-content {
+  color:black;
+  padding:0px 0px 1px 0px;
+  font-family:'National';
+  font-size:.7em;
+  font-weight:200;
+  text-align:center;
+  text-transform: uppercase;
+}
+.score-content h3 {
+  margin:0 auto;
+}
+.score-what-is {
+  color:black;
+  padding:2px 0px 0px 0px;
+  font-family:'National';
+  font-size:.7em;
+  font-weight:200;
+  margin:auto;
+  width:90%;
+  text-align:center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.score-what-is a {
+  text-decoration: none;
+}
+.other {
+  color:black;
+  padding:2px 0px 0px 0px;
+  font-family:'National';
+  font-size:.6em;
+  font-weight:200;
+  margin:10px auto 0 auto;
+  width:95%;
+  text-align:center;
+  text-decoration: none;
+}
+.other span {
+  font-weight:300 !important;
+}
+.score-box {
+  margin: 0 auto;
+  outline: 2px solid black;
+  width:90%;
+  align-self:center;
+  text-align:center;
+  padding:1px 0 0 0;
+}
+/*.score-box.negative{
+  outline: 2px solid red !important;
+}*/
+.score-box-container {
+  align-self:center;
+  text-align:center;
+}
+.score-percent {
+  font-weight:300;
+  text-decoration: underline;
+}
+.score-container-inner svg {
+  border-bottom: 1px solid #00aeef;
+  margin-bottom:1px;
+}
+/* Auto Suggest */
+.rendered-suggestion {
+  display:flex;
+  justify-content:space-between;
+}
+.react-autosuggest__container {
+  position: relative;
+}
+
+.react-autosuggest__input {
+  width: 220px;
+  height: 20px;
+  padding: 1px 10px;
+  font-family: 'National', 'Open Sans', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+  -webkit-appearance: none;
+}
+
+.react-autosuggest__input--focused {
+  outline: none;
+}
+
+.react-autosuggest__input::-ms-clear {
+  display: none;
+}
+
+.react-autosuggest__input--open {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.react-autosuggest__suggestions-container {
+  display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+  display: block;
+  position: relative;
+  top: -1px;
+  width: 280px;
+  border: 1px solid #aaa;
+  background-color: #fff;
+  color: #A9A9A9;
+  font-family: 'National', sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  z-index: 2;
+}
+
+.react-autosuggest__suggestions-list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+.react-autosuggest__suggestion--highlighted {
+  background-color: #ddd;
+}
+
+
+/* Footer */
+.footer-container {
+  width:100%;
+}
+.footer {
+  width:60%;
+  text-align:center;
+}
+.footer-content {
+  font-family:'National';
+  font-size:14px;
+  font-weight:200;
+  margin:8px 0;
+  width:100%;
+  opacity:.7;
+  text-transform:uppercase;
+}
+.school-content {
+  display:inline-block;
+  width:100%;
+}
+/* Responsive */
+@media only screen and (max-width: 768px) {
+/*  .school-profile {
+    color:white;
+    z-index:2;
+    text-shadow: 2px 2px 4px black;
+  }*/
+  .overlay {
+    display:none;
+  }
+  .school-container {
+    min-width:200px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .score-container {
+    width:100%;
+    flex-wrap:wrap;
+  }
+  .score-container-inner {
+    padding:0 5px 10px;
+  }
+}
+ 
+@media only screen and (max-width: 370px) {
+  .score-container-inner {
+    padding:0 35px 10px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .stack-container {
+      display:none;
+    }
+  .header-container {
+    text-align:center;
+  }
+  .header {
+    display:block;
+  }
+  }

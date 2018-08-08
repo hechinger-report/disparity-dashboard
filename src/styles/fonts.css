@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'National';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./typography/National-Regular.woff'); /* IE9 Compat Modes */
+  src: local('National'), local('National'),
+       url('./typography/National-Regular.woff') format('woff'), /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'National';
+  font-style: normal;
+  font-weight: 200;
+  src: url('./typography/National-Light.woff'); /* IE9 Compat Modes */
+  src: local('National'), local('National'),
+       url('./typography/National-Light.woff') format('woff'), /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'National';
+  font-style: normal;
+  font-weight: 100;
+  src: url('./typography/National-Thin.woff'); /* IE9 Compat Modes */
+  src: local('National'), local('National'),
+       url('./typography/National-Thin.woff') format('woff'), /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'National';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./typography/National-Semibold.woff'); /* IE9 Compat Modes */
+  src: local('National'), local('National'),
+       url('./typography/National-Semibold.woff') format('woff'), /* Modern Browsers */
+}
+@font-face {
+  font-family: 'National';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./typography/National-Bold.woff'); /* IE9 Compat Modes */
+  src: local('National'), local('National'),
+       url('./typography/National-Bold.woff') format('woff'), /* Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Tiempos';
+  font-style: normal;
+  font-weight: 300;
+  src: url('./typography/TiemposText-Regular.woff'); /* IE9 Compat Modes */
+  src: local('Tiempos'), local('Tiempos'),
+       url('./typography/TiemposText-Regular.woff') format('woff'), /* Modern Browsers */
+}

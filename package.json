@@ -1,0 +1,36 @@
+{
+  "name": "disparity-dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^1.4.3",
+    "classnames": "^2.2.6",
+    "d3-array": "^1.2.1",
+    "d3-scale": "^2.1.0",
+    "d3-selection": "^1.3.0",
+    "d3-transition": "^1.1.1",
+    "jsonp": "^0.2.1",
+    "material-ui": "^0.20.2",
+    "material-ui-popup-state": "^1.0.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-autosuggest": "^9.3.4",
+    "react-dom": "^16.4.1",
+    "react-fontawesome": "^1.6.1",
+    "react-scripts": "1.1.4",
+    "react-select": "^2.0.0",
+    "react-tap-event-plugin": "^3.0.3",
+    "react-tooltip": "^3.6.1",
+    "youtube-finder": "^1.0.1"
+  },
+  "proxy": "http://localhost:3000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "babelify": "^8.0.0"
+  }
+}
