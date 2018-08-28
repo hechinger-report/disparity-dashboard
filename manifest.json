@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Racial Gap Scores",
+  "name": "Tracking the gulf between enrollment and faculty by race",
   "icons": [
     {
       "src": "favicon.ico",
